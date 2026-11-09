@@ -1,4 +1,4 @@
-export default function ContactButton() {
+export default function ContactButton({ label = 'Contact Me' }: { label?: string }) {
   return (
     <button
       type="button"
@@ -11,7 +11,7 @@ export default function ContactButton() {
         outlineOffset: '-3px',
       }}
     >
-      Contact Me
+      {label}
     </button>
   );
 }

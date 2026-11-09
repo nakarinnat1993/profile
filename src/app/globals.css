@@ -16,9 +16,19 @@ body {
   font-family: var(--font-kanit), sans-serif;
 }
 
-.hero-heading {
+.hero-heading,
+.hero-heading-brand {
   background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.hero-heading-bright {
+  background-image: linear-gradient(180deg, #8a939e 0%, #e6eef3 100%);
+}
+
+/* Brand navy #152A55 is too dark to read on black, so it fades up into a lighter navy. */
+.hero-heading-brand {
+  background-image: linear-gradient(180deg, #152a55 0%, #5b82d0 100%);
 }

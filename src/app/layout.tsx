@@ -16,7 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Jack -- 3D Creator',
+  title: 'Company',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
